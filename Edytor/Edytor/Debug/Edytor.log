@@ -1,7 +1,0 @@
-﻿  MapLoader.cpp
-c:\users\maciek\onedrive\mighty gorilla\the board game project\edytor\edytor\maploader.cpp(91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\maciek\onedrive\mighty gorilla\the board game project\edytor\edytor\maploader.cpp(97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\maciek\onedrive\mighty gorilla\the board game project\edytor\edytor\maploader.cpp(308): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\maciek\onedrive\mighty gorilla\the board game project\edytor\edytor\maploader.cpp(314): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Edytor.vcxproj -> C:\Users\Maciek\OneDrive\Mighty Gorilla\The Board Game Project\Edytor\Debug\Edytor.exe
-  Edytor.vcxproj -> C:\Users\Maciek\OneDrive\Mighty Gorilla\The Board Game Project\Edytor\Debug\Edytor.pdb (Partial PDB)
