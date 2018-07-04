@@ -1,0 +1,180 @@
+Texture{
+Name= Button
+Source= Graphics/Button.png
+}
+Texture{
+Name= NO_GRAPHIC
+Source= Graphics/NO_GRAPHIC.png
+}
+Texture{
+Name= NPC_GreenOrb
+Source= Graphics/NPC/GreenOrb.png
+}
+Texture{
+Name= NPC_YellowOrb
+Source= Graphics/NPC/YellowOrb.png
+}
+Texture{
+Name= P_CrossRoads
+Source= Places/P_CrossRoads.png
+}
+Texture{
+Name= P_EarnGold
+Source= Places/P_EarnGold.png
+}
+Texture{
+Name= P_Fight
+Source= Places/P_Fight.png
+}
+Texture{
+Name= P_Freeze
+Source= Places/P_Freeze.png
+}
+Texture{
+Name= P_LostGold
+Source= Places/P_LostGold.png
+}
+Texture{
+Name= P_MiniGame
+Source= Places/P_Minigame.png
+}
+Texture{
+Name= P_Monster
+Source= Places/P_Monster.png
+}
+Texture{
+Name= P_TurnBack
+Source= Places/P_TurnBack.png
+}
+Sound{
+Name= NO_SOUND
+Source= Sounds/NO_SOUND.wav
+}
+Font{
+Name= Default
+Source= Default.ttf
+}
+Locations= Start,New location 1,New location 2,New location 3,New location 4,
+
+Location[ Start
+Place{
+Pos_x = 125
+Pos_y = 32
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 299
+Pos_y = 38
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 474
+Pos_y = -27
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 623
+Pos_y = -66
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 769
+Pos_y = -99
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 880
+Pos_y = -171
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 880
+Pos_y = -270
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 717
+Pos_y = -320
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 550
+Pos_y = -355
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 382
+Pos_y = -373
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 231
+Pos_y = -364
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -3.05176e-05
+Pos_y = -329
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = 285
+Camera_y = -145
+}
+]
+
+
+Location[ New location 1
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]
+
+
+Location[ New location 2
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]
+
+
+Location[ New location 3
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]
+
+
+Location[ New location 4
+Settings{
+Camera_x = 0
+Camera_y = 0
+}
+]

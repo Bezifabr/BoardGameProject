@@ -1,0 +1,155 @@
+Texture{
+Name= Button
+Source= Graphics/Button.png
+}
+Texture{
+Name= NO_GRAPHIC
+Source= Graphics/NO_GRAPHIC.png
+}
+Texture{
+Name= NPC_GreenOrb
+Source= Graphics/NPC/GreenOrb.png
+}
+Texture{
+Name= NPC_YellowOrb
+Source= Graphics/NPC/YellowOrb.png
+}
+Texture{
+Name= P_CrossRoads
+Source= Places/P_CrossRoads.png
+}
+Texture{
+Name= P_EarnGold
+Source= Places/P_EarnGold.png
+}
+Texture{
+Name= P_Fight
+Source= Places/P_Fight.png
+}
+Texture{
+Name= P_Freeze
+Source= Places/P_Freeze.png
+}
+Texture{
+Name= P_LostGold
+Source= Places/P_LostGold.png
+}
+Texture{
+Name= P_MiniGame
+Source= Places/P_Minigame.png
+}
+Texture{
+Name= P_Monster
+Source= Places/P_Monster.png
+}
+Texture{
+Name= P_TurnBack
+Source= Places/P_TurnBack.png
+}
+Texture{
+Name= GUI_Cube
+Source= Graphics/Cube.png
+}
+Sound{
+Name= NO_SOUND
+Source= Sounds/NO_SOUND.wav
+}
+Font{
+Name= Default
+Source= Default.ttf
+}
+NPC{
+ID = 
+Name = Trainer
+Level = 10
+Texture = NPC_YellowOrb
+Role = 3
+PositionWaypoint = 3
+PositionLocation = 0
+Health = 10
+SpellFuel = 10
+SpellFuelType = 0
+Statistic = Strength = 10
+Statistic = Agility = 10
+Statistic = Endurance = 10
+Statistic = Intelligence = 10
+Statistic = Speed = 10
+Statistic = Will Power = 10
+Spell = 
+Spell = 
+Spell = 
+Spell = 
+Spell = 
+Spell = 
+Armor = PiercingArmor = 10
+Armor = CuttingArmor = 10
+Armor = CrushingArmor = 10
+Armor = MagicalArmor = 10
+Item = 
+Item = 
+Loot = 
+Loot Chance = 0
+Loot = 
+Loot Chance = 0
+Loot = 
+Loot Chance = 0
+Loot = 
+Loot Chance = 0
+}
+Locations= New location,
+
+Location[ New location
+Place{
+Pos_x = 200
+Pos_y = 0
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 350
+Pos_y = 150
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 500
+Pos_y = 300
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 650
+Pos_y = 650
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 750
+Pos_y = 750
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 950
+Pos_y = 950
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 1050
+Pos_y = 1050
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = 500
+Camera_y = 100
+}
+]

@@ -1,0 +1,232 @@
+Texture{
+Name= Button
+Source= Graphics/Button.png
+}
+Texture{
+Name= NO_GRAPHIC
+Source= Graphics/NO_GRAPHIC.png
+}
+Texture{
+Name= NPC_GreenOrb
+Source= Graphics/NPC/GreenOrb.png
+}
+Texture{
+Name= NPC_YellowOrb
+Source= Graphics/NPC/YellowOrb.png
+}
+Texture{
+Name= P_CrossRoads
+Source= Places/P_CrossRoads.png
+}
+Texture{
+Name= P_EarnGold
+Source= Places/P_EarnGold.png
+}
+Texture{
+Name= P_Fight
+Source= Places/P_Fight.png
+}
+Texture{
+Name= P_Freeze
+Source= Places/P_Freeze.png
+}
+Texture{
+Name= P_LostGold
+Source= Places/P_LostGold.png
+}
+Texture{
+Name= P_MiniGame
+Source= Places/P_Minigame.png
+}
+Texture{
+Name= P_Monster
+Source= Places/P_Monster.png
+}
+Texture{
+Name= P_TurnBack
+Source= Places/P_TurnBack.png
+}
+Sound{
+Name= NO_SOUND
+Source= Sounds/NO_SOUND.wav
+}
+Font{
+Name= Default
+Source= Default.ttf
+}
+Locations= New location,
+
+Location[ New location
+Place{
+Pos_x = -512
+Pos_y = -227
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -340
+Pos_y = -221
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -148
+Pos_y = -199
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 54
+Pos_y = -184
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 251
+Pos_y = -180
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 485
+Pos_y = -177
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 686
+Pos_y = -190
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 830
+Pos_y = -305
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 917
+Pos_y = -432
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 980
+Pos_y = -576
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 1069
+Pos_y = -732
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 1009
+Pos_y = -872
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 792
+Pos_y = -1005
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 554
+Pos_y = -1027
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 308
+Pos_y = -1032
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = 72
+Pos_y = -1015
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -129
+Pos_y = -1005
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -348
+Pos_y = -995
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -538
+Pos_y = -960
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -720
+Pos_y = -908
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -816
+Pos_y = -771
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -843
+Pos_y = -614
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -812
+Pos_y = -485
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Place{
+Pos_x = -702
+Pos_y = -341
+Type = EarnGold
+Texture = P_EarnGold
+Track = 0
+}
+Settings{
+Camera_x = -380
+Camera_y = -560
+}
+]
