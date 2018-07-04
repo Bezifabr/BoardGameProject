@@ -7,5 +7,7 @@ void EndOfTurnSystem::AddWaypointsVector(const vector<Waypoint*>& waypointsVecto
 
 void EndOfTurnSystem::CheckTypeOfWaypoint(Character * currentCharacter)
 {
-	cout << waypointsvector[currentCharacter->GetWaypoint()]->GetType() << endl;
+	//cout << waypointsvector[currentCharacter->GetWaypoint()]->GetType() << endl;
+
+	cout << "Error: Waypoint has no type" << endl;
 }
