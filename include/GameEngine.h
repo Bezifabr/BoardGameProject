@@ -5,16 +5,12 @@
 class GameEngine
 {
 	bool isGameRunning;
-	GameEngineSubsystems* gameEngineSubsystems = new GameEngineSubsystems;
+	GameEngineSubsystems subsystems;
 public:
-	~GameEngine();
-
-	void Initialize();
-
-	void RunGame();
+	void InitializeSubsystems();
+	void StartMainLoop();
 
 private:
-	void RunMainLoop();
-
+	void IterateMainLoop();
 	void WaitForClosingSignal();
 };

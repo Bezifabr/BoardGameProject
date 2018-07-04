@@ -5,8 +5,8 @@ int main()
 	Language::SetLanguages("English");
 
 	GameEngine engine;
-	engine.Initialize();
-	engine.RunGame();
+	engine.InitializeSubsystems();
+	engine.StartMainLoop();
 
 	return 0;
 }

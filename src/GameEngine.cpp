@@ -1,36 +1,29 @@
 #include "GameEngine.h"
 
-GameEngine::~GameEngine()
-{
-	delete gameEngineSubsystems;
-}
 
-void GameEngine::Initialize()
+void GameEngine::InitializeSubsystems()
 {
-	gameEngineSubsystems->Initialize();
+	subsystems.Initialize();
 	isGameRunning = true;
 }
 
-void GameEngine::RunGame()
+void GameEngine::StartMainLoop()
 {
-	assert(gameEngineSubsystems);
-	gameEngineSubsystems->TestSubsystemsBeforeGameStarts();
-	RunMainLoop();
+	subsystems.TestSubsystemsBeforeGameStarts();
+	IterateMainLoop();
 }
 
-void GameEngine::RunMainLoop()
+void GameEngine::IterateMainLoop()
 {
 	while (isGameRunning == true)
 	{
-		assert(gameEngineSubsystems);
-		gameEngineSubsystems->Run();
+		subsystems.Run();
 		WaitForClosingSignal();
 	}
 }
 
 void GameEngine::WaitForClosingSignal()
 {
-	assert(gameEngineSubsystems);
-	if (gameEngineSubsystems->SendCloseSignalToGameLoop())
+	if (subsystems.SendCloseSignalToGameLoop())
 		isGameRunning = false;
 }
