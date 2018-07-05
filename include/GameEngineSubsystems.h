@@ -16,7 +16,7 @@ class GameEngineSubsystems
 public:
 	~GameEngineSubsystems();
 
-	void Run();
+	void Iterate();
 	void Initialize();
 	bool SendCloseSignalToGameLoop();
 	void TestSubsystemsBeforeGameStarts();

@@ -12,7 +12,7 @@ GameEngineSubsystems::~GameEngineSubsystems()
 	delete gameStatesMachine;
 }
 
-void GameEngineSubsystems::Run()
+void GameEngineSubsystems::Iterate()
 {
 	eventsHandler->EventsLoop();
 	gameStatesMachine->CheckStatesUpdates();

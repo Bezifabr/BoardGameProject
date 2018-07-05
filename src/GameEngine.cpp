@@ -17,7 +17,7 @@ void GameEngine::IterateMainLoop()
 {
 	while (isGameRunning == true)
 	{
-		subsystems.Run();
+		subsystems.Iterate();
 		WaitForClosingSignal();
 	}
 }
