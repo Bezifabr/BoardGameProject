@@ -10,7 +10,7 @@ It has a lot of memory leaks that make building game in release mode impossible.
 There is also scripting language which is a little bit messy. I needs to be refreshed.
 
 ## TO DO:
-- Split Game and Editor into separate projects [ ]
+- Split Game and Editor into separate projects [✓]
 - Move project from Visual Studio to CMake [ ]
 - Connect project with SFML repository [ ]
 - Refactor all the code [ ]
