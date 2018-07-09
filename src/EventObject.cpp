@@ -66,7 +66,7 @@ bool EventObject::CheckIfRectContainsMouse(sf::Vector2f position)
 	return true;
 }
 
-void EventObject::SetClickableBox(sf::FloatRect & rect)
+void EventObject::SetClickableBox(const sf::FloatRect & rect)
 {
 	box = rect;
 }

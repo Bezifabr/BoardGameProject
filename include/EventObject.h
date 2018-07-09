@@ -40,5 +40,5 @@ public:
 
 protected:
 
-	void SetClickableBox(sf::FloatRect& rect);
+	void SetClickableBox(const sf::FloatRect& rect);
 };
