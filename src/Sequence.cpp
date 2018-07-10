@@ -16,7 +16,7 @@ size_t Sequence::GetFramesNumber()
 	return frames.size();
 }
 
-sf::IntRect & Sequence::GetCurrentFrame()
+sf::IntRect Sequence::GetCurrentFrame()
 {
 	assert(currentFrame >= 0);
 	return frames.getElement(currentFrame);

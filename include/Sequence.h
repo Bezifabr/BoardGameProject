@@ -11,7 +11,7 @@ public:
 
 	void AddFrame(sf::IntRect frameRect);
 	size_t GetFramesNumber();
-	sf::IntRect& GetCurrentFrame();
+	sf::IntRect GetCurrentFrame();
 	void NextFrame();
 	void ResetCurrentFrame();
 };
