@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_WINDOW_H
+#define GAME_WINDOW_H
 
 #include "Config.h"
 
@@ -16,3 +17,5 @@ public:
 protected:
 	sf::RenderWindow* window;
 };
+
+#endif // !GAME_WINDOW_H

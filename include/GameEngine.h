@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_ENGINE_H
+#define GAME_ENGINE_H
 
 #include "GameEngineSubsystems.h"
 
@@ -14,3 +15,5 @@ private:
 	void IterateMainLoop();
 	void WaitForClosingSignal();
 };
+
+#endif // !GAME_ENGINE_H

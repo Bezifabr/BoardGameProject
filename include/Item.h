@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ITEM_H
+#define ITEM_H
 
 #include "Skill.h"
 
@@ -20,3 +21,5 @@ public:
 	int GetPrice();
 	void SetPrice(int price);
 };
+
+#endif // !ITEM_H

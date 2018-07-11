@@ -1,4 +1,5 @@
-#pragma once
+#ifndef MOUSE_EVENT_H
+#define MOUSE_EVENT_H
 
 #include <SFML\Window\Event.hpp>
 
@@ -17,3 +18,5 @@ public:
 	bool NeedMousePosition();
 	void NeedMousePosition(bool needMousePosition);
 };
+
+#endif // !MOUSE_EVENT_H

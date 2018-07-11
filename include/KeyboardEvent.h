@@ -1,4 +1,5 @@
-#pragma once
+#ifndef KEYBOARD_EVENT_H
+#define KEYBOARD_EVENT_H
 
 #include <SFML\Window\Event.hpp>
 
@@ -14,3 +15,5 @@ public:
 	void DisableKeyboardKey();
 	bool CheckKeyboardKey(sf::Keyboard::Key& key);
 };
+
+#endif // !KEYBOARD_EVENT_H

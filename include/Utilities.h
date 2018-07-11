@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILITIES_H
+#define UTILITIES_H
 
 #include <random> // C++11
 
@@ -44,3 +45,5 @@ inline void Utilities::EraseElementFromVector(int i, Vec & vector)
 		itr++;
 	vector.erase(itr);
 }
+
+#endif // !UTILITIES_H

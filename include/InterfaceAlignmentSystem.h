@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef INTERFACE_ALIGNMENT_SYSTEM_H
+#define INTERFACE_ALIGNMENT_SYSTEM_H
 
 #include "PlayersControlSystem.h"
 
@@ -20,3 +21,5 @@ private:
 
 	sf::Vector2f GetLeftTopCornerOfCamera();
 };
+
+#endif // !INTERFACE_ALIGNMENT_SYSTEM_H

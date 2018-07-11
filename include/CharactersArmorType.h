@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CHARACTER_ARMOR_TYPE_H
+#define CHARACTER_ARMOR_TYPE_H
+
 #include <map>
 
 struct ArmorType
@@ -8,3 +10,5 @@ struct ArmorType
 private:
 	std::map<std::string, int> armors;
 };
+
+#endif // !CHARACTER_ARMOR_TYPE_H

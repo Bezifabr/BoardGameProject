@@ -1,4 +1,6 @@
-#pragma once
+#ifndef EVENT_TYPE_H
+#define EVENT_TYPE_H
+
 #include <SFML/Window/Event.hpp>
 
 class EventType
@@ -14,3 +16,5 @@ public:
 
 	bool CheckEventType(sf::Event::EventType eventType);
 };
+
+#endif // !EVENT_TYPE_H

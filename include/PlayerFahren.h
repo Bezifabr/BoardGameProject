@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef PLAYER_FAHREN_H
+#define PLAYER_FAHREN_H
 
 #include "Player.h"
 
@@ -8,3 +9,5 @@ public:
 	PlayerFahren(int location, int waypoint);
 	virtual ~PlayerFahren() {};
 };
+
+#endif // !PLAYER_FAHREN_H

@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef CAMERA_MOVING_SYSTEM_H
+#define CAMERA_MOVING_SYSTEM_H
 
 #include "GameLoadingSystem.h"
 
@@ -33,3 +34,5 @@ private:
 	void CalculateCameraSpeedWithDeltaTime();
 
 };
+
+#endif // !CAMERA_MOVING_SYSTEM_H

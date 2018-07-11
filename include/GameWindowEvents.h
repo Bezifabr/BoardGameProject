@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_WINDOW_EVENTS_H
+#define GAME_WINDOW_EVENTS_H
 
 #include "GameWindow.h"
 #include <SFML/Window/Mouse.hpp>
@@ -16,3 +17,5 @@ public:
 
 private:
 };
+
+#endif // !GAME_WINDOW_EVENTS_H

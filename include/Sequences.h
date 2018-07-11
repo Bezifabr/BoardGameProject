@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SEQUENCES_H
+#define SEQUENCES_H
 
 #include "Sequence.h"
 
@@ -24,3 +25,5 @@ private:
 	Sequence* GetCurrentSequence();
 	void IsFrameCorrect(sf::IntRect frameRect);
 };
+
+#endif // !SEQUENCES_H

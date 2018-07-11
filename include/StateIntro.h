@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STATE_INTRO_H
+#define STATE_INTRO_H
 
 #include "State.h"
 
@@ -14,3 +15,5 @@ class StateIntro : public State
 	void ButtonsTestAndTexturesLoading();
 	void TestingButton();
 };
+
+#endif // !STATE_INTRO_H

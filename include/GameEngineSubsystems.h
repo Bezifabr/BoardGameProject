@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_ENGINE_SUBSYSTEMS_H
+#define GAME_ENGINE_SUBSYSTEMS_H
 
 #include "GameStatesMachine.h"
 #include "EventsHandler.h"
@@ -32,3 +33,5 @@ private:
 	void AccessData();
 
 };
+
+#endif // !GAME_ENGINE_SUBSYSTEMS_H

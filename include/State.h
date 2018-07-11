@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STATE_H
+#define STATE_H
 
 #include "CameraMovingSystem.h"
 
@@ -61,3 +62,5 @@ inline void State::SetAsButton(EvOb * eventObject)
 	eventObject->CreateClickableBox();
 	eventObject->IsAttachedToCamera(true);
 }
+
+#endif // !STATE_H

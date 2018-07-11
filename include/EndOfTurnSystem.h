@@ -1,4 +1,5 @@
-#pragma once
+#ifndef END_OF_TURN_SYSTEM_H
+#define END_OF_TURN_SYSTEM_H
 
 #include "Waypoint.h"
 #include "Character.h"
@@ -17,3 +18,5 @@ private:
 
 
 };
+
+#endif // !END_OF_TURN_SYSTEM_H

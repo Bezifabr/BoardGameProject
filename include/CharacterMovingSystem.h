@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CHARACTER_MOVING_SYSTEM_H
+#define CHARACTER_MOVING_SYSTEM_H
 
 #include "PlayerOslas.h"
 #include "PlayerSeph.h"
@@ -33,3 +34,5 @@ private:
 	bool CheckIfCharactersStayOnWaypoint(Waypoint* waypoint, Character* character);
 
 };
+
+#endif // !CHARACTER_MOVING_SYSTEM_H

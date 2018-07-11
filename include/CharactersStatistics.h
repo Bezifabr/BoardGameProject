@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CHARACTERS_STATISTICS_H
+#define CHARACTERS_STATISTICS_H
+
 #include <map>
 
 struct CharacterStats
@@ -8,3 +10,5 @@ struct CharacterStats
 private:
 	std::map<std::string, int> statistics;
 };
+
+#endif // !CHARACTERS_STATISTICS_H

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SAVE_SLOT_H
+#define SAVE_SLOT_H
 
 #include "Slot.h"
 #include "CustomText.h"
@@ -20,3 +21,5 @@ public:
 
 	const char* GetSourceOfSavedFile();
 };
+
+#endif // !SAVE_SLOT_H

@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef GAME_WINDOW_VIEW_H
+#define GAME_WINDOW_VIEW_H
 
 #include "GameWindow.h"
 #include <SFML/Graphics/View.hpp>
@@ -12,3 +13,5 @@ public:
 
 	const sf::View& GetView();
 };
+
+#endif // !GAME_WINDOW_VIEW_H

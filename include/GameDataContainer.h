@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_DATA_CONTAINER_H
+#define GAME_DATA_CONTAINER_H
 
 #include "InterfaceAlignmentSystem.h"
 #include "Camera.h"
@@ -47,3 +48,5 @@ public:
 	void SetCameraPosition(int locationNumber, sf::Vector2f cameraPosition);
 private:
 };
+
+#endif // !GAME_DATA_CONTAINER_H

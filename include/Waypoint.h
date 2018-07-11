@@ -1,4 +1,5 @@
-#pragma once
+#ifndef WAYPOINT_H
+#define WAYPOINT_H
 
 #include "SaveSlot.h"
 
@@ -43,3 +44,5 @@ public:
 	void SetNextTrack(int trackID);
 	int GetNextTrack();
 };
+
+#endif // !WAYPOINT_H

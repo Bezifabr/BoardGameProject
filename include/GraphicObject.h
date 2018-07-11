@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GRAPHIC_OBJECT_H
+#define GRAPHIC_OBJECT_H
 
 #include "AnimatedObject.h"
 
@@ -25,3 +26,5 @@ public:
 
 private:
 };
+
+#endif // !GRAPHIC_OBJECT_H

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef INTERFACE_OBJECT_H
+#define INTERFACE_OBJECT_H
 
 #include "GraphicObject.h"
 #include "EventObject.h"
@@ -22,3 +23,5 @@ public:
 
 	void CreateClickableBox();
 };
+
+#endif // !INTERFACE_OBJECT_H

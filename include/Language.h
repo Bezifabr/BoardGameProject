@@ -1,3 +1,6 @@
+#ifndef LANGUAGE_H
+#define LANGUAGE_H
+
 #include <map>
 
 class Language : public std::map<std::string, std::string>
@@ -9,3 +12,5 @@ private:
 	Language() {};
 	Language(const Language &) {};
 };
+
+#endif // !LANGUAGE_H

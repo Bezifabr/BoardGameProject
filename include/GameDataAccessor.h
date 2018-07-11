@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_DATA_ACCESSOR_H
+#define GAME_DATA_ACCESSOR_H
 
 #include "GameDataContainer.h"
 
@@ -23,3 +24,5 @@ private:
 	sf::Texture testingTexture;
 	void RenderingByLocationTest();
 };
+
+#endif // !GAME_DATA_ACCESSOR_H

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_STATES_MACHINE_H
+#define GAME_STATES_MACHINE_H
 
 #include "State.h"
 #include "GameWindowView.h"
@@ -33,3 +34,5 @@ private:
 	void TestInterfaceObjectsAndTexturesLoading();
 	void TestCustomTextObjectsAndFontsAndTexturesLoading();
 };
+
+#endif // !GAME_STATES_MACHINE_H

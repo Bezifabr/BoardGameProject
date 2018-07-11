@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EVENTS_HANDLER_H
+#define EVENTS_HANDLER_H
 
 #include "Character.h"
 #include "GameWindowEvents.h"
@@ -24,3 +25,5 @@ private:
 	void CheckWindowClosing();
 	bool CheckEvent(EventObject* itr);
 };
+
+#endif // !EVENTS_HANDLER_H

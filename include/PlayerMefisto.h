@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef PLAYER_MEFISTO_H
+#define PLAYER_MEFISTO_H
 
 #include "Player.h"
 
@@ -8,3 +9,5 @@ public:
 	PlayerMefisto(int location, int waypoint);
 	virtual ~PlayerMefisto() {};
 };
+
+#endif // !PLAYER_MEFISTO_H

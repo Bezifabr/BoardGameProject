@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef CAMERA_H
+#define CAMERA_H
 
 #include <SFML/Graphics/View.hpp>
 
@@ -15,3 +16,5 @@ public:
 
 	void Move(sf::Vector2f moveValue);
 };
+
+#endif // !CAMERA_H

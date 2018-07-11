@@ -1,4 +1,5 @@
-#pragma once
+#ifndef RENDERER_H
+#define RENDERER_H
 
 #include "EventsHandler.h"
 #include <vector>
@@ -26,3 +27,5 @@ private:
 
 	bool CheckLayerAndLocation(DrawableObject* object, int layer, int location);
 };
+
+#endif // !RENDERER_H

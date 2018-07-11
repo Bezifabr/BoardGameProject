@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CUSTOM_TEXT_H
+#define CUSTOM_TEXT_H
 
 #include "InterfaceObject.h"
 #include <SFML/Graphics/Text.hpp>
@@ -25,3 +26,5 @@ public:
 	void CreateClickableBox();
 	void AlignCenter();
 };
+
+#endif // !CUSTOM_TEXT_H

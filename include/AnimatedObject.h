@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ANIMATED_OBJECT_H
+#define ANIMATED_OBJECT_H
 
 #include "Sequences.h"
 #include <SFML/System/Clock.hpp>
@@ -32,3 +33,5 @@ private:
 
 	void UpdateObjectsFrame();
 };
+
+#endif // !ANIMATED_OBJECT_H

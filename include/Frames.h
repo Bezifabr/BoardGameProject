@@ -1,4 +1,5 @@
-#pragma once
+#ifndef FRAMES_H
+#define FRAMES_H
 
 #include "DrawableObject.h"
 #include <vector>
@@ -15,3 +16,5 @@ private:
 
 	std::vector<sf::IntRect> frames;
 };
+
+#endif // !FRAMES_H

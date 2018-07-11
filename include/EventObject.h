@@ -1,9 +1,11 @@
-#pragma once
+#ifndef EVENT_OBJECT_H
+#define EVENT_OBJECT_H
 
 #include "MouseEvent.h"
 #include "KeyboardEvent.h"
 #include "EventType.h"
 #include <SFML/Graphics/Rect.hpp>
+
 class EventObject
 {
 	EventType eventType;
@@ -42,3 +44,5 @@ protected:
 
 	void SetClickableBox(const sf::FloatRect& rect);
 };
+
+#endif // ! EVENT_OBJECT_H

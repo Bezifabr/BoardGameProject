@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_LOADING_SYSTEM_H
+#define GAME_LOADING_SYSTEM_H
 
 #include "GameDataAccessor.h"
 #include "ResourcesContainer.h"
@@ -41,3 +42,5 @@ public:
 
 	void LoadResourcesFromFile(const char* source);
 };
+
+#endif // !GAME_LOADING_SYSTEM_H

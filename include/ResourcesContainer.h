@@ -1,4 +1,5 @@
-#pragma once
+#ifndef RESOURCES_CONTAINER_H
+#define RESOURCES_CONTAINER_H
 
 #include <string>
 #include <map>
@@ -24,3 +25,5 @@ public:
 
 	void Clear();
 };
+
+#endif // !RESOURCES_CONTAINER_H

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CHARACTERS_ITEMS_H
+#define CHARACTERS_ITEMS_H
+
 #include <map>
 #include "Item.h"
 
@@ -21,3 +23,5 @@ private:
 	std::map<int, Item*> lootItems;
 	std::map<int, float> lootChance;
 };
+
+#endif // !CHARACTERS_ITEMS_H

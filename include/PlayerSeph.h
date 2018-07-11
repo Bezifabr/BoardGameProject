@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef PLAYER_SEPH_H
+#define PLAYER_SEPH_H
 
 #include "Player.h"
 
@@ -8,3 +9,5 @@ public:
 	PlayerSeph(int location, int waypoint);
 	virtual ~PlayerSeph() {};
 };
+
+#endif // !PLAYER_SEPH_H

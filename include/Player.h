@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef PLAYER_H
+#define PLAYER_H
 
 #include "Renderer.h"
 
@@ -9,3 +10,5 @@ protected:
 public:
 	virtual ~Player() {};
 };
+
+#endif // !PLAYER_H

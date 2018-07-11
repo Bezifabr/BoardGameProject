@@ -1,4 +1,5 @@
-#pragma once
+#ifndef DRAWABLE_OBJECT_H
+#define DRAWABLE_OBJECT_H
 
 #include "GameWindowsBuilder.h"
 
@@ -25,3 +26,5 @@ public:
 
 	const sf::FloatRect& GetFloatRect();
 };
+
+#endif // !DRAWABLE_OBJECT_H

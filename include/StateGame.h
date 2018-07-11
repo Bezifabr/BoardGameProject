@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STATE_GAME_H
+#define STATE_GAME_H
 
 #include "State.h"
 
@@ -29,3 +30,5 @@ class StateGame : public State
 	sf::Texture testingTexture;
 	void MapLoadingTest();
 };
+
+#endif // !STATE_GAME_H

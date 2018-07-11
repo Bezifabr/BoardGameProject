@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CONFIG_H
+#define CONFIG_H
 
 #include "Language.h"
 #include "Utilities.h"
@@ -29,3 +30,5 @@
 #define SAVE_SLOT_EMPTY "Graphics/SavingSlot.png"
 
 #include <assert.h>
+
+#endif // !CONFIG_H

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SEQUENCE_H
+#define SEQUENCE_H
 
 #include "Frames.h"
 
@@ -15,3 +16,5 @@ public:
 	void NextFrame();
 	void ResetCurrentFrame();
 };
+
+#endif // !SEQUENCE_H

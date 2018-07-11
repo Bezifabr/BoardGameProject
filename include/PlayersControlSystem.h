@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿#ifndef PLAYERS_CONTROL_SYSTEM_H
+#define PLAYERS_CONTROL_SYSTEM_H
 
 #include "CharacterMovingSystem.h"
 
@@ -31,3 +32,5 @@ private:
 
 	void MovePlayer();
 };
+
+#endif // !PLAYERS_CONTROL_SYSTEM_H
