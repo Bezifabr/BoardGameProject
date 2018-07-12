@@ -24,7 +24,7 @@ public:
 	void SetLocation(const uint8_t &location);
 	uint8_t GetLocation();
 
-	const sf::FloatRect& GetFloatRect();
+	sf::FloatRect GetFloatRect();
 };
 
 #endif // !DRAWABLE_OBJECT_H

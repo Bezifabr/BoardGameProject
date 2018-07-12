@@ -35,7 +35,7 @@ uint8_t DrawableObject::GetLocation()
 	return location;
 }
 
-const sf::FloatRect & DrawableObject::GetFloatRect()
+sf::FloatRect DrawableObject::GetFloatRect()
 {
 	return sprite.getGlobalBounds();
 }
