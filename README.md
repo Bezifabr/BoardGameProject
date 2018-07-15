@@ -11,9 +11,11 @@ There is also scripting language which is a little bit messy. I needs to be refr
 
 ## TO DO:
 - Split Game and Editor into separate projects [✓]
-- Move project from Visual Studio to CMake [ ]
-- Connect project with SFML repository [ ]
+- Move project from Visual Studio to CMake [✓]
+- Connect project with SFML repository [✓]
 - Refactor all the code [ ]
 - Find and fix all incorrect memory allocations [ ]
 - Build project with MinGW [ ]
 - Take a look at scripting language and find better solutions [ ]
+
+- Change sources of assets in code [ ]
