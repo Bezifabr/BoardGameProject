@@ -1,5 +1,4 @@
-﻿#pragma once
-
+﻿
 #include "StateGame.h"
 
 void StateGame::Update()

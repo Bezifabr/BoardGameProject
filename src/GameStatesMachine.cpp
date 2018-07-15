@@ -1,4 +1,3 @@
-#pragma once
 
 #include "GameStatesMachine.h"
 #include "StateGame.h"
