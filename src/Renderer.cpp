@@ -2,7 +2,7 @@
 
 Renderer::Renderer(RenderWindow * renderWindow)
 {
-	InitializeRenderWindow(renderWindow);
+	ConnectWithRenderWindow(renderWindow);
 }
 
 Renderer::~Renderer()
@@ -20,7 +20,7 @@ Renderer::~Renderer()
 	assert(!drawableObjects);
 }
 
-void Renderer::InitializeRenderWindow(RenderWindow * renderWindow)
+void Renderer::ConnectWithRenderWindow(RenderWindow * renderWindow)
 {
 	this->renderWindow = renderWindow;
 	assert(renderWindow != NULL);

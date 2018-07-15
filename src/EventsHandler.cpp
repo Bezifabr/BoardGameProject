@@ -2,7 +2,7 @@
 
 EventsHandler::EventsHandler(EventWindow * gameWindow)
 {
-	SetGameWindow(gameWindow);
+	ConnectWithGameWindow(gameWindow);
 }
 
 EventsHandler::~EventsHandler()
@@ -21,7 +21,7 @@ EventsHandler::~EventsHandler()
 	assert(!eventObjects);
 }
 
-void EventsHandler::SetGameWindow(EventWindow * gameWindow)
+void EventsHandler::ConnectWithGameWindow(EventWindow * gameWindow)
 {
 	this->gameWindow = gameWindow;
 	assert(gameWindow != NULL);

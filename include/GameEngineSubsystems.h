@@ -9,18 +9,16 @@
 
 class GameEngineSubsystems
 {
-	GameWindowsBuilder* windowManager;
-	EventsHandler* eventsHandler;
-	Renderer* renderer;
-	GameDataAccessor* gameDataAccessor;
-	GameStatesMachine* gameStatesMachine;
+	GameWindowsBuilder windowManager;
+	EventsHandler eventsHandler;
+	Renderer renderer;
+	GameDataAccessor gameDataAccessor;
+	GameStatesMachine gameStatesMachine;
 public:
-	~GameEngineSubsystems();
 
 	void Iterate();
 	void Initialize();
 	bool SendCloseSignalToGameLoop();
-	void TestSubsystemsBeforeGameStarts();
 
 private:
 	bool CheckIfWindowIsClosed();
@@ -28,7 +26,6 @@ private:
 	void InitializeGameStates();
 	void InitializeGameWindow();
 	void InitializeEventsHandler();
-	void InitializeGameDataContainer();
 	void InitializeRenderer();
 	void AccessData();
 

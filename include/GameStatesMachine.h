@@ -12,9 +12,11 @@ class GameStatesMachine
 
 	bool isFinished = false;
 public:
+	GameStatesMachine() {}
 	GameStatesMachine(ViewWindow* viewWindow);
 	~GameStatesMachine();
 
+	void ConnectWithViewWindow(ViewWindow* viewWindow);
 	void InitializeAndLoadData(GameDataContainer* container);
 	void CheckStatesUpdates();
 	bool IsFinished();

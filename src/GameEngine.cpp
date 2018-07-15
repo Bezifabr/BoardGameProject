@@ -1,7 +1,7 @@
 #include "GameEngine.h"
 
 
-void GameEngine::InitializeSubsystems()
+GameEngine::GameEngine()
 {
 	subsystems.Initialize();
 	isGameRunning = true;
@@ -9,7 +9,6 @@ void GameEngine::InitializeSubsystems()
 
 void GameEngine::StartMainLoop()
 {
-	subsystems.TestSubsystemsBeforeGameStarts();
 	IterateMainLoop();
 }
 

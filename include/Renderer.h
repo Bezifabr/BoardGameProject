@@ -12,11 +12,11 @@ class Renderer
 	int* currentLocation = nullptr;
 	vector<DrawableObject*>* drawableObjects;
 public:
+	Renderer() {}
 	Renderer(RenderWindow* renderWindow);
-
 	~Renderer();
 
-	void InitializeRenderWindow(RenderWindow* renderWindow);
+	void ConnectWithRenderWindow(RenderWindow* renderWindow);
 
 	void ObjectsRendering();
 

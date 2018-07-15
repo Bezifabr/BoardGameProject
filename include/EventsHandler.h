@@ -12,10 +12,11 @@ class EventsHandler
 	vector<EventObject*>* eventObjects;
 
 public:
+	EventsHandler() {}
 	EventsHandler(EventWindow* gameWindow);
 	~EventsHandler();
 
-	void SetGameWindow(EventWindow* gameWindow);
+	void ConnectWithGameWindow(EventWindow* gameWindow);
 	void EventsLoop();
 	void GetDataFromDataContainer(vector<EventObject*>*eventObjects);
 

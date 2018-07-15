@@ -8,7 +8,8 @@ class GameEngine
 	bool isGameRunning;
 	GameEngineSubsystems subsystems;
 public:
-	void InitializeSubsystems();
+	GameEngine();
+
 	void StartMainLoop();
 
 private:

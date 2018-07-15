@@ -1,4 +1,3 @@
-
 #include "GameDataAccessor.h"
 
 GameDataAccessor::~GameDataAccessor()

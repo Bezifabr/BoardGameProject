@@ -19,7 +19,7 @@ private:
 	void MergeEventDerivedClasses();
 
 	void MergeDrawableDerivedClasses();
-	
+
 	//Testing
 	sf::Texture testingTexture;
 	void RenderingByLocationTest();

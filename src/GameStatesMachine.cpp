@@ -1,4 +1,3 @@
-
 #include "GameStatesMachine.h"
 #include "StateGame.h"
 #include "StateIntro.h"
@@ -11,8 +10,7 @@
 
 GameStatesMachine::GameStatesMachine(ViewWindow * viewWindow)
 {
-	assert(viewWindow);
-	this->viewWindow = viewWindow;
+	ConnectWithViewWindow(viewWindow);
 }
 
 GameStatesMachine::~GameStatesMachine()
@@ -26,6 +24,12 @@ GameStatesMachine::~GameStatesMachine()
 	assert(currentState);
 	delete currentState;
 	currentState = NULL;
+}
+
+void GameStatesMachine::ConnectWithViewWindow(ViewWindow * viewWindow)
+{
+	assert(viewWindow);
+	this->viewWindow = viewWindow;
 }
 
 void GameStatesMachine::InitializeAndLoadData(GameDataContainer * container)
